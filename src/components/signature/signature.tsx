@@ -101,7 +101,7 @@ export class Signature {
 
     return (
       <Host>
-        <button disabled={this.oidAuth === undefined} onClick={() => this.navigate()} aria-label={sign}>
+        <button disabled={this.oidAuth === undefined} onClick={() => this.navigate()} aria-label={this.ariaLabel !== undefined ? this.ariaLabel : sign}>
           <slot>{sign}</slot>
         </button>
         {this.renderLink()}
