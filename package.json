@@ -1,6 +1,7 @@
 {
   "name": "@owlly/signature",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "private": false,
   "description": "🦉 owlly enables the secure and easy electronic signing, validation and counting of popular initiatives and referendums for campaign platforms and offers a holistic e-collecting approach for Switzerland.",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
@@ -42,5 +43,14 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-owlly/signature.git"
+  },
+  "author": "Sandro Scalco",
+  "bugs": {
+    "url": "https://github.com/project-owlly/signature/issues"
+  },
+  "homepage": "https://github.com/project-owlly/signature#readme"
 }
