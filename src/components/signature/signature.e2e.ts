@@ -36,6 +36,6 @@ describe('signature', () => {
     await page.setContent('<owlly-sign></owlly-sign>');
     const component = await page.find('owlly-sign >>> button');
 
-    expect(component.textContent).toEqual(`unterschreiben`);
+    expect(component.textContent).toEqual(`Jetzt unterschreiben`);
   });
 });
