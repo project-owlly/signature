@@ -15,7 +15,7 @@ const SUPPORTED_LANGUAGES: string[] = ['de', 'fr', 'it', 'en'];
 
 const TRANSLATIONS: Translations = {
   de: {
-    sign: 'unterschreiben',
+    sign: 'Jetzt unterschreiben',
   },
   fr: {
     sign: 'signer',
