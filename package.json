@@ -1,6 +1,6 @@
 {
   "name": "@owlly/signature",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "🦉 owlly enables the secure and easy electronic signing, validation and counting of popular initiatives and referendums for campaign platforms and offers a holistic e-collecting approach for Switzerland.",
   "main": "dist/index.cjs.js",
